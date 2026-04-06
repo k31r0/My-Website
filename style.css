@@ -1,13 +1,6 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100;
-  margin: 0;
-  flex-direction: column;
-}
-.bagel.jpg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: url("bagel.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
